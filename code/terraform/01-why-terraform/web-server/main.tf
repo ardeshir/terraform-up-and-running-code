@@ -12,7 +12,7 @@ provider "aws" {
 resource "aws_instance" "app" {
   instance_type     = "t2.micro"
   availability_zone = "us-east-1a"
-  ami               = "ami-0c55b159cbfafe1f0"
+  ami               = "ami-04b9e92b5572fa0d1"
 
   tags = {
     Name = "terraform-ec2-t2micro"
